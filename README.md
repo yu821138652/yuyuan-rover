@@ -66,21 +66,5 @@ python src/rover_main.py
 }
 ```
 
-## 代码来源与整理说明
 
-原始文件夹中 `芋圆杯.txt` 是最终代码，但转移时混入了中文乱码、不可打印字符和少量被注释吞掉的代码行。本仓库的 `src/rover_main.py` 基于它修复得到：
-
-- 恢复被乱码注释吞掉的关键语句，例如 `BASE_SPEED`、`CROSS_DETECT_THRESHOLD`、`num_cross = 11`
-- 修复明显拼写错误 `Truse -> True`
-- 清理损坏的中文注释，并补充结构化中文注释
-- 使用 `python -m py_compile` 做静态语法检查
-
-## 不纳入 GitHub 的内容
-
-以下内容保留在原始归档目录，不建议上传到公开仓库：
-
-- `wpa_supplicant.conf`：包含 Wi-Fi 信息
-- `WAVE_ROVER_FACTORY/` 与 `WAVE_ROVER_FACTORY.zip`：出厂烧录工具和二进制文件
-- 赛事 PDF/PPT 原件：仓库只保留用于说明的局部截图
-- `mission_state.json`：运行时状态文件
 
