@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Runtime state and logs
+mission_state.json
+*.log
+logs/
+
+# Local hardware/network config
+wpa_supplicant.conf
+ssh
+*.local
+.env
+
+# Large factory/binary packages from the original archive
+WAVE_ROVER_FACTORY/
+WAVE_ROVER_FACTORY.zip
+*.exe
+*.bin
+*.bin_rep
+
+# Local notes and bulky reference material
+*_本地自用.md
+*.pdf
+*.ppt
+*.pptx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

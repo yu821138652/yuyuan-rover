@@ -1,0 +1,7 @@
+pyserial
+opencv-python
+apriltag
+lgpio
+gpiozero
+picamera2
+
